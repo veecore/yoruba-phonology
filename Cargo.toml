@@ -1,0 +1,4 @@
+[workspace]
+members = ["yoruba", "stt", "tts"]
+
+resolver = "1"

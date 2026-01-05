@@ -1,0 +1,16 @@
+[package]
+name = "yoruba"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rodio = "0.21.1"
+unicode-normalization = "0.1.25"
+unicode-segmentation = "1.12.0"
+
+[features]
+default = ["dialects"]
+alloc = []
+std = ["alloc"]
+# Enables support for native Ekiti/Ijesha/Ijebu/Ondo dialects
+dialects = []
