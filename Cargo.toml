@@ -1,4 +1,7 @@
 [workspace]
-members = ["yoruba", "stt", "tts"]
-
-resolver = "1"
+members = [
+    "yoruba",
+    "stt",
+    "tts",
+]
+resolver = "2"
